@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3a757777a3.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{
+        margin: 0px;
+    }
+    section{
+        width: 100vw;
+        height: 80vh;
+        margin-top:20vh;
+        background:linear-gradient(to right,rgb(198, 68, 189),rgb(111, 9, 118),rgb(22, 32, 235));
+    }
+    .main{
+        display: flex;
+        position: relative;
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+    .main div{
+        margin-top: -5%;
+        height: 150px;
+        width: 200px;
+        background-color:white;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px black;
+    }
+    .main h3{
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:15%;
+    }
+    .main i{
+        color: rgb(208, 54, 167);
+        font-size: 3.6rem;
+        margin-top: 5%;
+        
+        
+    }
+    .main p{
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+    }
+    .main2{
+        height: 50vh;
+        width: 30vw;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .main2 form{
+        display:grid ;
+        align-items:start;
+        gap: .5rem;
+    }
+    .main2 input,textarea{
+        border: none;
+        background: none;
+        color: white;
+    }
+    .main2 #b1{
+        border: 1px solid black;
+        margin-top: 15%;
+        background-color: white;
+        border-radius: 10px;
+        height: 30px;
+        color:rgb(255, 192, 247);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: small;
+    }
+    .main3{
+        height: 50vh;
+        width: 30vw;
+        margin-left: 55%;
+        margin-top: -25%;
+        color: white;
+    }
+    .main3 h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 1;
+        font-style:normal;
+        text-align: initial;
+    }
+    .main3 h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: 500 bold;
+    }
+    .main3 i{
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+    
+    
+</style>
+<body>
+    <section>
+        <div class="main">
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>My Residential</h3>
+                <p>Theerthamalai,Harur,Dharmapuri-636906</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone No.</h3>
+                <p>7548802582</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-fax"></i>
+                <h3>Fax</h3>
+                <p>75-488-02-582</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <h3>Email</h3>
+                <p style="color: rgb(208, 54, 167); text-decoration:underline">sankarvengadesan1909@gmail.com</p>
+            </div>
+        </div>
+        <div class="main2">
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="Enter a vaild email address">
+                <hr>
+                <label>Name</label>
+                <input type="text" placeholder="Enter your Name">
+                <hr>
+                <label>Message</label>
+                <textarea name="" id="" placeholder="Enter your Message"></textarea>
+                <hr>
+                <input type="button" value="Submit" id="b1">
+            </form>
+        </div>
+        <div class="main3">
+            <h1>Get in touch</h1>
+            <br>
+            <h4>We can ensure reliability.low cost fares and most important, with safty and comfort in mind</h4>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum, aspernatur alias quo consectetur nobis aliquid? Nostrum quas nulla, consequuntur laboriosam quis asperiores!</p>
+            <br>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </section>
+</body>
+</html>

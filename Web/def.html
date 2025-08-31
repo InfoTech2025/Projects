@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+    }
+
+    .main1 {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(./images/c804c3d1-c269-4f91-acb0-15d039fbdd70.png);
+    }
+
+    .main1 img {
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+
+    .main11 {
+        margin-left: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -2%;
+        width: 70vw;
+    }
+
+    .main11 a {
+        font-size: larger;
+        color: white;
+        text-decoration: none;
+    }
+
+    .main11 button {
+        background: none;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .main12 {
+        margin-top: 10%;
+        text-align: center;
+        padding: 2rem;
+        width: 40vw;
+        margin-left: 25%;
+    }
+
+    .main12 #p1 {
+        font-size: 2.4rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        width: 20vw;
+        margin-left: 25%;
+    }
+
+    .main12 span {
+        font-size: 4.8rem;
+    }
+
+    .main12 p {
+        font-size: 1.6rem;
+    }
+
+    .main12 button {
+        text-decoration: none;
+        border: 1px solid white;
+        background: none;
+        font-size: 1rem;
+        text-transform: capitalize;
+        padding: 2%;
+        border-radius: 5px;
+        background-color: yellow;
+        height: max-content;
+        margin-top: 5%;
+    }
+
+    .main13 #h1 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 3.6rem;
+        font-weight: lighter;
+        color: rgb(39, 88, 39);
+    }
+
+    .main13 hr {
+        width: 6rem;
+        height: 5px;
+        margin-left: 46%;
+        border-radius: 5px;
+        background-color: yellow;
+        border: none;
+        margin-top: 1%;
+    }
+
+    .main131 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1%;
+        width: 100vw;
+        gap: 1rem;
+        margin-left: 5%;
+    }
+    .main131 img{
+        height: 70vh;
+    }
+
+    .main131 #s1 {
+        width: 5rem;
+        font-size: 1.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        padding: 4%;
+        text-align: left;
+        color: green;
+    }
+
+    .main131 p {
+        margin: 0px;
+        width: 70%;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        padding: 4%;
+        color: green;
+    }
+
+    .main14 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: grey;
+        text-transform: none;
+        color: green;
+    }
+
+    .main14 p {
+        font-weight: lighter;
+        font-size: 2.4rem;
+        width: 70vw;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    .main14 h4 {
+        font-size: 1.6rem;
+        font-weight: lighter;
+    }
+
+    .main15 {
+        margin-top: 10%;
+        margin: 0px;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .main15 h5 {
+        font-weight: lighter;
+        font-size: small;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 3%;
+        margin-top: 10%;
+    }
+
+    .main15 #p1 {
+        font-size: 3.2rem;
+        width: 50vw;
+        text-align: justify;
+        padding: 1%;
+        margin-left: 2%;
+    }
+
+    .main15 p {
+        font-size: 1.6rem;
+        color: green;
+        padding: 1%;
+        width: 50vw;
+        text-align: justify;
+        margin-left: 2%;
+    }
+
+    .main15 #b1 {
+        text-transform: capitalize;
+        font-size: small;
+        text-align: center;
+        background: none;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-weight: lighter;
+        color: rgb(104, 178, 104);
+        height: 30px;
+        width: 100px;
+        margin-left: 20%;
+        margin-top: -5%;
+    }
+
+    .main15 img {
+        margin-top: -25%;
+        margin-left: 35%;
+        height: 60vh;
+        width: 30vw;
+    }
+
+    .main16 #h11 {
+        text-transform: uppercase;
+        color: rgb(71, 215, 71);
+        font-size: 3.2rem;
+        text-align: center;
+        font-weight: lighter;
+        padding: 1%;
+    }
+
+    .main16 p {
+        font-size: 1.6rem;
+        text-align: center;
+        width: 50vw;
+        margin-left: 25%;
+        padding: 3%;
+    }
+
+    .main16 button {
+        font-weight: lighter;
+        height: 40px;
+        width: 120px;
+        border: none;
+        background: yellow;
+        margin-left: 45%;
+        padding: 1%;
+        gap: 10rem;
+    }
+
+    .main17 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20vh;
+    }
+
+    .main171 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        align-items: center;
+        background: none;
+        width: 25vw;
+    }
+
+    .main171 a {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .main17 img {
+        align-items: center;
+        margin-right: 10%;
+    }
+
+    .main17 p {
+        font-size: 1.4rem;
+    }
+</style>
+
+<body>
+    <section>
+
+        <div class="main1">
+            <img class="alignnone wp-image-74 size-thumbnail"
+                src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-green.svg" alt=""
+                width="60" height="50">
+            <div class="main11" id="main11">
+                <a href="#main11">Home</a>
+                <a href="#main15">About</a>
+                <a href="#main13">Service</a>
+                <a href="#b1">Contact</a>
+                <button id="b1">754-880-2582</button>
+            </div>
+            <div class="main12">
+                <p id="p1">we all love <span>nature</span></p>
+                <p>look deep into nature,and you will understand everything better</p>
+                <button>get started</button>
+            </div>
+        </div>
+        <div class="main13" id="main13">
+            <h1 id="h1">Our services</h1>
+            <hr>
+            <div class="main131">
+                <div>
+                    <img src="./images/image.png" alt="">
+                    <br>
+                    <span id="s1">Web Design</span>
+                    <p> Focus on how you can help and benefit your user. Use simple words so that
+                        you
+                        don't confuse people.
+                    </p>
+                </div>
+                <div>
+                    <img src="./images/service-2.jpg" alt="">
+                    <br>
+                    <span id="s1">Graphic Design</span>
+                    <p>Focus on how you can help and benefit your user. Use simple words so
+                        that
+                        you don't confuse people.
+                    </p>
+                </div>
+                <div>
+                    <img src="./images/service-3.jpg" alt="">
+                    <br>
+                    <span id="s1">Content Creation</span>
+                    <p>Focus on how you can help and benefit your user. Use simple words
+                        so
+                        that you don't confuse people.
+                    </p>
+                </div>
+            </div>
+            <div class="main14">
+                <img src="	https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/quotes.svg"
+                    alt="">
+                <p>“Original and with an innate understanding of their customer’s needs, the team at Love Nature are
+                    always a pleasure to work with.”</p>
+                <img src="./images/avatar_on_home.png" alt="" height="50px">
+                <h4>jane miller</h4>
+            </div>
+            <div class="main15" id="main15">
+                <h5>about us</h5>
+                <p id="p1">Tell website visitors who you are and why they should choose your business.</p>
+                <p>Because when a visitor first lands on your website, you're a stranger to them. They have to get to
+                    know you in order to want to read your blog posts, subscribe to your email newsletter, or buy what
+                    you're selling.</p>
+                <button id="b1">Find Out More</button>
+                <img src="./images/leaf.jpg" alt="">
+            </div>
+            <div class="main16">
+                <h1 id="h11">questions?</h1>
+                <p>Whether you're curious about features, a free trial, or even press, we're here to answer any
+                    questions.</p>
+                <button>Let's Talk Now</button>
+            </div>
+            <div class="main17">
+                <div class="main171">
+                    <a href="#main11">Home</a>
+                    <a href="#main15">About</a>
+                    <a href="#main13">Service</a>
+                    <a href="#b1">Contact</a>
+                </div>
+
+                <img class="alignnone wp-image-74 size-thumbnail"
+                    src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-green.svg"
+                    alt="" width="60" height="50">
+                <p>Love Nature by Tyler Moore</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
