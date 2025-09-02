@@ -1,0 +1,430 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 40vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(https://st.redbus.in/Images/rdc/HeroRDC.svg);
+}
+.main .home{
+    margin-top: 1%;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.main .home-a{
+    position: absolute;
+    margin-top: 3%;
+    text-decoration: none;
+    margin-left: 7%;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 800 lighter;
+    font-size: small;
+}
+.sub1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 60vw;
+    margin-left: 40%;
+    margin-top: -5%;
+    padding: 1%;
+}
+.sub1 a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: lighter;
+    color: black;
+}
+.main p{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1%;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.main2{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 15vh;
+    width:70vw;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: -5%;
+    border-radius: 10px;
+    opacity: 2;
+}
+.main2 label{
+    text-transform: uppercase;
+    margin-left: 5%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: self-start;
+}
+.main2 input{
+    position: static;
+   background: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   text-decoration: none;
+   border: none;
+   padding: 20px;
+   margin-left: -1%;
+   height: 30px;
+   width: 50%;
+}
+.main2 button{
+    height: 15vh;
+    width: max-content;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: rgb(222, 47, 47);
+    border-radius: 10px;
+    font-weight: 400 lighter;
+    font-size: smaller;
+}
+.main3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    width: 70vw;
+    margin-left: 10%;
+    opacity: 1;
+    margin-top: 5%;
+    gap: 10px;
+}
+.main3 div{
+    border: 1px solid black;
+    height: 40vh;
+    width: 30vw;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+.main4{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 40vh;
+    width: 80vw;
+    background-color: lightgray;
+    color: blue;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-left: 11%;
+    margin-top: 1%;
+}
+.main4 img{
+    margin-top: 5%;
+
+}
+.main4 div{
+    margin-top: 5%;
+    width: 20vw;
+    padding: 5px;
+    margin-left: -10%;
+}
+.main4 span{
+    text-transform: uppercase;
+    font-size: smaller;
+}
+.main4 h1{
+    text-transform: uppercase;
+    font-size: larger;
+}
+.main4 button{
+    height: 60px;
+    width: 20%;
+    margin-top: 7%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: large;
+    text-transform: uppercase;
+}
+.main5{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 80vw;
+    height: 30vh;
+    margin-top: 1%;
+    margin-left: 11%;
+    gap: 1rem;
+}
+.main5 div{
+    display: grid;
+    align-content: center;
+    width: 20vw;
+    height: 20vh;
+}
+.main5 p{
+    font-size: .8rem;
+    width: 10vw;
+    margin-left: 40%;
+    margin-top: -25%;
+}
+.main5 h2{
+    font-size: .8rem;
+    padding: auto;
+    width: 10vw;
+    margin-left: 40%;
+    margin-top: -30%;
+}
+#h1{
+    font-size: 2.4rem;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.main6{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 60vw;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.main6 img{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main6 a{
+    font-size: smaller;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.main6 span{
+    font-size: large;
+}
+.main62 img{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main62{
+    display: flex;
+        justify-content: space-evenly;
+    align-content: center;
+    width: 60vw;
+    margin-left: 20%;
+}
+.main62 a{
+    font-size: smaller;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.main62 span{
+    font-size: large;
+}
+.main6 img:hover{
+    transition: 2s ease-out;
+    transform:rotateY(30deg);
+}
+.main62 img:hover{
+    transition: 2s ease-out;
+    transform:rotateX(30deg);
+}
+.main7{
+    display: grid;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1rem;
+    margin-top: 1%;
+}
+.main7 div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 60vw;
+    height: 30vh;
+}
+.main7 img{
+    height: 150px;
+    width: 200px;
+}
+.main7 p{
+    font-size: larger;
+    text-align: center;
+    margin-top: 6%;
+    width: 20vw;
+    margin-left: 20%;
+    color: gray;
+}
+.main7 #p1{
+    font-size: larger;
+    text-align: center;
+    margin-top: 5%;
+    width: 20vw;
+    margin-right: 50%;
+    color: gray;
+}
+.main7 span{
+    font-size: 1.6rem;
+}
+#p2{
+    font-size: 2.4rem;
+    color: grey;
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bolder;
+}
+#p3{
+    color: rgb(6, 6, 81);
+    font-size: 2.4rem;
+    width: 50vw;
+    align-content: center;
+    text-align: center;
+    margin-left: 25%;
+}
+.main8{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100vw;
+    gap: 1rem;
+    margin-top: 2%;
+}
+.main8 div{
+    width: 20vw;
+    border: 1px solid black;
+}
+.main81{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100vw;
+    margin-top: 2%;
+    gap: 1rem;
+}
+.main81 div{
+    width: 20vw;
+    border: 1px solid black;
+}
+.main9{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    margin-top: 5%;
+}
+.main9 #div{
+    width: 30vw;
+    height: 50vh;
+}
+.main9 img{
+    height: 50px;
+    width: 100px;
+    margin-top: 5%;
+}
+.main9 h1{
+    font-size: 2.4rem;
+    margin-left: 1%;
+    width: 40vw;
+    margin-top: 5%;
+
+}
+.main9 p{
+    font-size: 1.6rem;
+    margin-left: -50%;
+    width: 40vw;
+    margin-top: 15%;
+}
+#h4{
+    text-align: center;
+    font-size: 2rem;
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#p4{
+    width: 60vw;
+    margin-left: 20vw;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+.main10{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 60vw;
+    margin-left: 15vw;
+    text-align: center;
+    height: 30vh;
+}
+.main10 h1{
+    color: rgb(21, 21, 108);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100vw;
+}
+.main10 p{
+    font-size: 1.6rem;
+    color: rgb(32, 32, 166);
+    font-weight: lighter;
+    margin-top: 10%;
+    width: 80vw;
+    margin-left: -40vw;
+}
+.main10 button{
+    height: 60px;
+    width: 250px;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: -20%;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    color: rgb(220, 220, 37);
+}
+.main11{
+    width: 60vw;
+    margin-left: 20%;
+    text-align: justify;
+}
+.main11 h1{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: 2%;
+}
+.main11 a{
+    margin-top: 2%;
+    text-decoration: none;
+    color: gray; 
+}
+.main12{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 30vh;
+}
+.main12 img{
+    margin-top: 2%;
+}
+.main12 p{
+    width: 30vw;
+    margin-right: 60%;
+    margin-top: 5%;
+    border: 2px double grey;
+    align-content: center;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: lightgrey;
+}
+
